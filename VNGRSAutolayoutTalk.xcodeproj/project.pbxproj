@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9695B1920F64AE300A50850 /* VerticalAlignmentTrue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B1820F64AE300A50850 /* VerticalAlignmentTrue.storyboard */; };
+		C9695B1D20F64F3600A50850 /* ImageViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B1C20F64F3600A50850 /* ImageViewer.storyboard */; };
+		C9695B2620F6B0A300A50850 /* ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B2520F6B0A300A50850 /* ScrollView.storyboard */; };
+		C9695B2A20F6B40E00A50850 /* StackViewAndDistribution.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B2920F6B40E00A50850 /* StackViewAndDistribution.storyboard */; };
+		C9695B2D20F6BF8C00A50850 /* ProportionalPositioning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B2C20F6BF8C00A50850 /* ProportionalPositioning.storyboard */; };
+		C9695B3020F6C32500A50850 /* ChangingLayoutAtRuntimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9695B2F20F6C32500A50850 /* ChangingLayoutAtRuntimeViewController.swift */; };
+		C9695B3220F6C36900A50850 /* ChangeLayoutAtRuntime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B3120F6C36900A50850 /* ChangeLayoutAtRuntime.storyboard */; };
+		C9695B3620F76F4000A50850 /* ContentHugging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9695B3520F76F4000A50850 /* ContentHugging.storyboard */; };
 		C9732D9C20F5E96900229863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9732D9B20F5E96900229863 /* AppDelegate.swift */; };
 		C9732D9E20F5E96900229863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9732D9D20F5E96900229863 /* ViewController.swift */; };
-		C9732DA120F5E96900229863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9732D9F20F5E96900229863 /* Main.storyboard */; };
 		C9732DA320F5E96A00229863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9732DA220F5E96A00229863 /* Assets.xcassets */; };
 		C9732DA620F5E96A00229863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9732DA420F5E96A00229863 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9695B1820F64AE300A50850 /* VerticalAlignmentTrue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerticalAlignmentTrue.storyboard; sourceTree = "<group>"; };
+		C9695B1C20F64F3600A50850 /* ImageViewer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewer.storyboard; sourceTree = "<group>"; };
+		C9695B2520F6B0A300A50850 /* ScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollView.storyboard; sourceTree = "<group>"; };
+		C9695B2920F6B40E00A50850 /* StackViewAndDistribution.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackViewAndDistribution.storyboard; sourceTree = "<group>"; };
+		C9695B2C20F6BF8C00A50850 /* ProportionalPositioning.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProportionalPositioning.storyboard; sourceTree = "<group>"; };
+		C9695B2F20F6C32500A50850 /* ChangingLayoutAtRuntimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingLayoutAtRuntimeViewController.swift; sourceTree = "<group>"; };
+		C9695B3120F6C36900A50850 /* ChangeLayoutAtRuntime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChangeLayoutAtRuntime.storyboard; sourceTree = "<group>"; };
+		C9695B3520F76F4000A50850 /* ContentHugging.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentHugging.storyboard; sourceTree = "<group>"; };
 		C9732D9820F5E96900229863 /* VNGRSAutolayoutTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNGRSAutolayoutTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9732D9B20F5E96900229863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9732D9D20F5E96900229863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9732DA020F5E96900229863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9732DA220F5E96A00229863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9732DA520F5E96A00229863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9732DA720F5E96A00229863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +49,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9695B1B20F64F1F00A50850 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B1C20F64F3600A50850 /* ImageViewer.storyboard */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		C9695B2420F6B09600A50850 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B2520F6B0A300A50850 /* ScrollView.storyboard */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		C9695B2820F6B3C800A50850 /* StackViewAndDistribution */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B2920F6B40E00A50850 /* StackViewAndDistribution.storyboard */,
+			);
+			path = StackViewAndDistribution;
+			sourceTree = "<group>";
+		};
+		C9695B2B20F6BF6500A50850 /* ProportionalPositioning */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B2C20F6BF8C00A50850 /* ProportionalPositioning.storyboard */,
+			);
+			path = ProportionalPositioning;
+			sourceTree = "<group>";
+		};
+		C9695B2E20F6C30200A50850 /* RuntimeLayoutChanging */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B3120F6C36900A50850 /* ChangeLayoutAtRuntime.storyboard */,
+				C9695B2F20F6C32500A50850 /* ChangingLayoutAtRuntimeViewController.swift */,
+			);
+			path = RuntimeLayoutChanging;
+			sourceTree = "<group>";
+		};
+		C9695B3420F76F3000A50850 /* ContentHugging */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B3520F76F4000A50850 /* ContentHugging.storyboard */,
+			);
+			path = ContentHugging;
+			sourceTree = "<group>";
+		};
 		C9732D8F20F5E96900229863 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +117,36 @@
 		C9732D9A20F5E96900229863 /* VNGRSAutolayoutTalk */ = {
 			isa = PBXGroup;
 			children = (
+				C9695B3420F76F3000A50850 /* ContentHugging */,
+				C9695B2B20F6BF6500A50850 /* ProportionalPositioning */,
+				C9695B1B20F64F1F00A50850 /* ImageView */,
+				C9695B2420F6B09600A50850 /* ScrollView */,
+				C9695B2820F6B3C800A50850 /* StackViewAndDistribution */,
+				C9732DAE20F5E9A900229863 /* VerticalAlignmentInStackView */,
+				C9695B2E20F6C30200A50850 /* RuntimeLayoutChanging */,
+				C9732DAD20F5E99F00229863 /* Resources */,
+			);
+			path = VNGRSAutolayoutTalk;
+			sourceTree = "<group>";
+		};
+		C9732DAD20F5E99F00229863 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				C9732D9B20F5E96900229863 /* AppDelegate.swift */,
 				C9732D9D20F5E96900229863 /* ViewController.swift */,
-				C9732D9F20F5E96900229863 /* Main.storyboard */,
 				C9732DA220F5E96A00229863 /* Assets.xcassets */,
 				C9732DA420F5E96A00229863 /* LaunchScreen.storyboard */,
 				C9732DA720F5E96A00229863 /* Info.plist */,
 			);
-			path = VNGRSAutolayoutTalk;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9732DAE20F5E9A900229863 /* VerticalAlignmentInStackView */ = {
+			isa = PBXGroup;
+			children = (
+				C9695B1820F64AE300A50850 /* VerticalAlignmentTrue.storyboard */,
+			);
+			path = VerticalAlignmentInStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +207,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9695B1920F64AE300A50850 /* VerticalAlignmentTrue.storyboard in Resources */,
+				C9695B2D20F6BF8C00A50850 /* ProportionalPositioning.storyboard in Resources */,
+				C9695B3220F6C36900A50850 /* ChangeLayoutAtRuntime.storyboard in Resources */,
 				C9732DA620F5E96A00229863 /* LaunchScreen.storyboard in Resources */,
+				C9695B1D20F64F3600A50850 /* ImageViewer.storyboard in Resources */,
 				C9732DA320F5E96A00229863 /* Assets.xcassets in Resources */,
-				C9732DA120F5E96900229863 /* Main.storyboard in Resources */,
+				C9695B3620F76F4000A50850 /* ContentHugging.storyboard in Resources */,
+				C9695B2620F6B0A300A50850 /* ScrollView.storyboard in Resources */,
+				C9695B2A20F6B40E00A50850 /* StackViewAndDistribution.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9695B3020F6C32500A50850 /* ChangingLayoutAtRuntimeViewController.swift in Sources */,
 				C9732D9E20F5E96900229863 /* ViewController.swift in Sources */,
 				C9732D9C20F5E96900229863 /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9732D9F20F5E96900229863 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9732DA020F5E96900229863 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9732DA420F5E96A00229863 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VNGRSAutolayoutTalk/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VNGRSAutolayoutTalk/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VNGRSAutolayoutTalk/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VNGRSAutolayoutTalk/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

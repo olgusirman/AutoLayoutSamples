@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VEA-8m-XKd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5TV-N0-ax6">
+            <objects>
+                <viewController id="VEA-8m-XKd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TEC-2e-Wod">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="TestTestTest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1i-jT-c9h">
+                                <rect key="frame" x="16" y="36" width="96" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.98555368190000003" blue="0.77202690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jE3-PQ-HHH">
+                                <rect key="frame" x="122" y="36" width="237" height="20.5"/>
+                                <color key="backgroundColor" red="0.91704644099999999" green="0.98555368190000003" blue="0.75379774310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sI1-6n-qva" firstAttribute="trailing" secondItem="jE3-PQ-HHH" secondAttribute="trailing" constant="16" id="BCZ-Cb-9MM"/>
+                            <constraint firstItem="g1i-jT-c9h" firstAttribute="leading" secondItem="sI1-6n-qva" secondAttribute="leading" constant="16" id="NSh-k1-PEX"/>
+                            <constraint firstItem="jE3-PQ-HHH" firstAttribute="leading" secondItem="g1i-jT-c9h" secondAttribute="trailing" constant="10" id="Q05-JK-BRs"/>
+                            <constraint firstItem="g1i-jT-c9h" firstAttribute="top" secondItem="sI1-6n-qva" secondAttribute="top" constant="16" id="U64-CF-i1e"/>
+                            <constraint firstItem="jE3-PQ-HHH" firstAttribute="top" secondItem="sI1-6n-qva" secondAttribute="top" constant="16" id="Vc3-US-qDB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sI1-6n-qva"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="am5-sk-MLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="164.16791604197903"/>
+        </scene>
+    </scenes>
+</document>

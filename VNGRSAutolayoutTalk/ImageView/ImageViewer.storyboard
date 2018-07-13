@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6TL-Zw-Qmi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4q5-BA-Ory">
+            <objects>
+                <viewController id="6TL-Zw-Qmi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nKv-wN-TRB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vngrsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="FuK-8g-y3K" userLabel="Logo">
+                                <rect key="frame" x="0.0" y="297.5" width="375" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FuK-8g-y3K" secondAttribute="height" multiplier="1918:473" id="OrL-jq-6n0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FuK-8g-y3K" firstAttribute="centerY" secondItem="NJh-RE-vk8" secondAttribute="centerY" id="6Bb-XE-Bie"/>
+                            <constraint firstItem="FuK-8g-y3K" firstAttribute="centerX" secondItem="NJh-RE-vk8" secondAttribute="centerX" id="VIh-EV-zxX"/>
+                            <constraint firstItem="FuK-8g-y3K" firstAttribute="height" relation="lessThanOrEqual" secondItem="nKv-wN-TRB" secondAttribute="height" id="qVE-5S-I9a"/>
+                            <constraint firstItem="FuK-8g-y3K" firstAttribute="width" relation="lessThanOrEqual" secondItem="nKv-wN-TRB" secondAttribute="width" id="qgu-Ka-Tqm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NJh-RE-vk8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFx-Xf-TpQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="177.66116941529236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vngrsLogo" width="1918" height="473"/>
+    </resources>
+</document>

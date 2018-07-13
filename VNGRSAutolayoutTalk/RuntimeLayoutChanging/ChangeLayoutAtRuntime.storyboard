@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wlO-sI-IYo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VNGRS-->
+        <scene sceneID="445-LW-0t2">
+            <objects>
+                <viewController storyboardIdentifier="ChangingLayoutAtRuntimeViewController" id="O24-BX-1oo" customClass="ChangingLayoutAtRuntimeViewController" customModule="VNGRSAutolayoutTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kcd-mg-xHl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljz-jj-WAd">
+                                <rect key="frame" x="10" y="64" width="355" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHQ-ca-VPa">
+                                        <rect key="frame" x="10" y="10" width="335" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="ja6-Zc-2HP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0s-fV-JMt">
+                                        <rect key="frame" x="10" y="38" width="335" height="30"/>
+                                        <subviews>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lss-cR-QCS">
+                                                <rect key="frame" x="-2" y="0.0" width="339" height="31"/>
+                                            </slider>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="VKz-K6-rOw"/>
+                                            <constraint firstItem="Lss-cR-QCS" firstAttribute="leading" secondItem="V0s-fV-JMt" secondAttribute="leading" id="WZ2-ab-Rls"/>
+                                            <constraint firstAttribute="trailing" secondItem="Lss-cR-QCS" secondAttribute="trailing" id="Ydr-UK-AUg"/>
+                                            <constraint firstAttribute="bottom" secondItem="Lss-cR-QCS" secondAttribute="bottom" id="eHy-eA-Yws"/>
+                                            <constraint firstItem="Lss-cR-QCS" firstAttribute="top" secondItem="V0s-fV-JMt" secondAttribute="top" id="kDB-TZ-7za"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.98555368190000003" blue="0.77202690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="tHQ-ca-VPa" secondAttribute="trailing" constant="10" id="75l-Se-FuQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="V0s-fV-JMt" secondAttribute="trailing" constant="10" id="ACF-bv-CM6"/>
+                                    <constraint firstItem="V0s-fV-JMt" firstAttribute="top" secondItem="tHQ-ca-VPa" secondAttribute="bottom" constant="10" id="IbA-6H-n2r"/>
+                                    <constraint firstAttribute="bottom" secondItem="V0s-fV-JMt" secondAttribute="bottom" constant="12" id="IbQ-E4-hVp"/>
+                                    <constraint firstItem="tHQ-ca-VPa" firstAttribute="leading" secondItem="ljz-jj-WAd" secondAttribute="leading" constant="10" id="Ker-5r-wBf"/>
+                                    <constraint firstItem="tHQ-ca-VPa" firstAttribute="top" secondItem="ljz-jj-WAd" secondAttribute="top" constant="10" id="blR-Ld-EVb"/>
+                                    <constraint firstItem="V0s-fV-JMt" firstAttribute="leading" secondItem="ljz-jj-WAd" secondAttribute="leading" constant="10" id="cgf-IB-Rkm"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vngrsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="kFh-Tw-NkW">
+                                <rect key="frame" x="16" y="164" width="343" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="gCp-Xh-c5c"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kFh-Tw-NkW" firstAttribute="top" secondItem="ljz-jj-WAd" secondAttribute="bottom" constant="20" id="BxU-zj-6hH"/>
+                            <constraint firstItem="kFh-Tw-NkW" firstAttribute="leading" secondItem="7H5-AA-HUn" secondAttribute="leading" constant="16" id="CAI-yb-Q7Q"/>
+                            <constraint firstItem="ljz-jj-WAd" firstAttribute="leading" secondItem="7H5-AA-HUn" secondAttribute="leading" constant="10" id="D5F-cJ-p2B"/>
+                            <constraint firstItem="ljz-jj-WAd" firstAttribute="top" secondItem="7H5-AA-HUn" secondAttribute="top" id="Gmn-Kt-VPL"/>
+                            <constraint firstItem="7H5-AA-HUn" firstAttribute="trailing" secondItem="kFh-Tw-NkW" secondAttribute="trailing" constant="16" id="u8p-Uy-cf3"/>
+                            <constraint firstItem="7H5-AA-HUn" firstAttribute="trailing" secondItem="ljz-jj-WAd" secondAttribute="trailing" constant="10" id="uWC-ry-mYS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7H5-AA-HUn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="VNGRS" id="oQl-rI-Gx9">
+                        <barButtonItem key="rightBarButtonItem" title="Edit" id="hg8-Cy-MSU">
+                            <connections>
+                                <action selector="toggleDistanceControls:" destination="O24-BX-1oo" id="jGU-n3-FrY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="edgeConstraint" destination="blR-Ld-EVb" id="deF-KF-Cwf"/>
+                        <outlet property="warppingView" destination="ljz-jj-WAd" id="nAw-Cw-nLt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00x-FK-c06" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1599" y="48"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eqI-tm-c0x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wlO-sI-IYo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BNu-I1-B6R">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="O24-BX-1oo" kind="relationship" relationship="rootViewController" id="tl3-7q-4RO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zzf-Rg-BVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922.39999999999998" y="48.125937031484263"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vngrsLogo" width="1918" height="473"/>
+    </resources>
+</document>
